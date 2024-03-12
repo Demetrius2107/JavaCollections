@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc560aa5-fef9-4027-9ca1-2ecc33c02e34" name="Changes" comment="LinkedList impl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hua/HashMap/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/hua/HashMap/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/01.html" afterDir="false" />
+    <list default="true" id="bc560aa5-fef9-4027-9ca1-2ecc33c02e34" name="Changes" comment="HashMap impl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hua/HashSet/MyHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,25 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MyArrayList.executor": "Run",
+    "Application.MyHashMap.executor": "Run",
+    "Application.MyHashSet.executor": "Run",
+    "Application.MyLinkedList.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.MyHashMap">
+}]]></component>
+  <component name="RunManager" selected="Application.MyHashSet">
     <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hua.ArrayList.MyArrayList" />
       <module name="JavaCollections" />
@@ -89,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hua.HashSet.MyHashSet" />
+      <module name="JavaCollections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hua.HashSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hua.LinkedList.MyLinkedList" />
       <module name="JavaCollections" />
@@ -104,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHashSet" />
         <item itemvalue="Application.MyHashMap" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.MyArrayList" />
@@ -130,7 +143,8 @@
       <workItem from="1710161511266" duration="422000" />
       <workItem from="1710161945811" duration="49000" />
       <workItem from="1710162006305" duration="24000" />
-      <workItem from="1710162039181" duration="557000" />
+      <workItem from="1710162039181" duration="847000" />
+      <workItem from="1710228083781" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayList impl">
       <option name="closed" value="true" />
@@ -148,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710152934926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HashMap impl">
+      <option name="closed" value="true" />
+      <created>1710162862854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710162862854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ArrayList impl" />
     <MESSAGE value="LinkedList impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList impl" />
+    <MESSAGE value="HashMap impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap impl" />
   </component>
 </project>
